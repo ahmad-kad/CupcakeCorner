@@ -11,6 +11,12 @@
 		F61588912B5CD044009B6E08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61588902B5CD044009B6E08 /* ContentView.swift */; };
 		F61588932B5CD045009B6E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61588922B5CD045009B6E08 /* Assets.xcassets */; };
 		F61588962B5CD045009B6E08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61588952B5CD045009B6E08 /* Preview Assets.xcassets */; };
+		F615889D2B5CD732009B6E08 /* forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615889C2B5CD732009B6E08 /* forms.swift */; };
+		F615889F2B5CD88C009B6E08 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615889E2B5CD88C009B6E08 /* Haptics.swift */; };
+		F61588A22B5E1EE1009B6E08 /* CupCakeOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61588A12B5E1EE1009B6E08 /* CupCakeOrder.swift */; };
+		F61588A42B5E1EF2009B6E08 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61588A32B5E1EF2009B6E08 /* Order.swift */; };
+		F61588A62B5E22ED009B6E08 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61588A52B5E22ED009B6E08 /* AddressView.swift */; };
+		F61588A82B5E25F3009B6E08 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61588A72B5E25F3009B6E08 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		F61588902B5CD044009B6E08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F61588922B5CD045009B6E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F61588952B5CD045009B6E08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F615889C2B5CD732009B6E08 /* forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forms.swift; sourceTree = "<group>"; };
+		F615889E2B5CD88C009B6E08 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		F61588A02B5CDB1B009B6E08 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F61588A12B5E1EE1009B6E08 /* CupCakeOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupCakeOrder.swift; sourceTree = "<group>"; };
+		F61588A32B5E1EF2009B6E08 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		F61588A52B5E22ED009B6E08 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		F61588A72B5E25F3009B6E08 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +64,17 @@
 		F615888D2B5CD044009B6E08 /* CupcakeCorner */ = {
 			isa = PBXGroup;
 			children = (
+				F61588A72B5E25F3009B6E08 /* CheckoutView.swift */,
+				F61588A52B5E22ED009B6E08 /* AddressView.swift */,
+				F61588A32B5E1EF2009B6E08 /* Order.swift */,
+				F61588A12B5E1EE1009B6E08 /* CupCakeOrder.swift */,
+				F615889E2B5CD88C009B6E08 /* Haptics.swift */,
+				F615889C2B5CD732009B6E08 /* forms.swift */,
 				F615888E2B5CD044009B6E08 /* CupcakeCornerApp.swift */,
 				F61588902B5CD044009B6E08 /* ContentView.swift */,
 				F61588922B5CD045009B6E08 /* Assets.xcassets */,
 				F61588942B5CD045009B6E08 /* Preview Content */,
+				F61588A02B5CDB1B009B6E08 /* README.md */,
 			);
 			path = CupcakeCorner;
 			sourceTree = "<group>";
@@ -137,7 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F61588A62B5E22ED009B6E08 /* AddressView.swift in Sources */,
+				F61588A42B5E1EF2009B6E08 /* Order.swift in Sources */,
+				F615889F2B5CD88C009B6E08 /* Haptics.swift in Sources */,
+				F615889D2B5CD732009B6E08 /* forms.swift in Sources */,
+				F61588A22B5E1EE1009B6E08 /* CupCakeOrder.swift in Sources */,
 				F61588912B5CD044009B6E08 /* ContentView.swift in Sources */,
+				F61588A82B5E25F3009B6E08 /* CheckoutView.swift in Sources */,
 				F615888F2B5CD044009B6E08 /* CupcakeCornerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
